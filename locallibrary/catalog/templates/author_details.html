@@ -1,0 +1,29 @@
+{% extends "base_generic.html" %}
+{% block content %}
+
+
+<h1>Author Name: {{name}} 
+ 
+</h1>
+<h1>Books: </h1>     
+  {% for books in book %}
+    <h3><li class='b'>
+        <a href="{{ books.get_absolute_url }}">{{ books }} </a> <br/>     <h4><u>About The Book:</u></h4> 
+        <h5>{{ books.summary }}</h5>
+    </li></h3>
+    {% endfor %}  
+
+    <br><br>
+    <!-- <hr style="height:10px;border-width:4mm;background-color:rgb(56, 22, 204)"> -->
+<hr>
+<hr>
+
+
+{% if author %}
+
+<a href="{% url 'author_delete' %}">Nothing</a>
+ {% endif %}
+
+
+
+{% endblock %}

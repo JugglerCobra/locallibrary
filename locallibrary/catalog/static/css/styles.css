@@ -1,0 +1,97 @@
+body {
+    background-color: rgb(99, 138, 170);
+    margin:0;
+}
+
+.sidebar-nav {
+    margin-top:20;
+    padding: 20;
+    list-style: none;
+    color: green;
+   
+
+}
+
+ul.sidebar-nav {
+    list-style-type: none ;
+    margin-top: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li.a {
+    float: left;
+}
+
+li.a a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li.a a:hover {
+    background-color: #111;
+}
+
+marquee {
+    margin:0 ;
+}
+
+a:link {
+    color: darkgreen;
+}
+a:visited {
+    color: darkred;
+}
+a:hover {
+    color: darkblue;
+}
+a:active {
+    color: brown;
+}
+
+h5 {
+    color: white;
+    margin-left: 2cm;
+}
+
+li.b {
+    margin-left: 3cm;
+}
+
+h4 {
+    color: rgb(59, 59, 59);
+    margin-left: 1cm;
+}
+p.session {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-variant: small-caps;
+
+}
+
+h5.a {
+    color: rgb(5, 2, 48);
+    margin-left: 0;
+}
+
+h5.b {
+    color: rgb(5, 2, 48);
+    margin-right: 0;
+    text-align: right;
+}
+
+
+
+canvas {
+    border: hidden ;
+    margin-right: 0.5cm;
+}
+
+form.a {
+    margin-left: 0.5cm; 
+}

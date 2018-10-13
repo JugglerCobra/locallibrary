@@ -1,0 +1,14 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+<h1>Name: {{ author.first_name}} {{ author.last_name }}</h1>
+
+<p><strong>Biography:</strong>  {{ author.first_name }} {{ author.last_name }} was born in : {{ author.date_of_birth }}</p>
+
+<p><strong>Books:</strong> {{ author.Book }}
+
+
+
+    <!-- <hr style="height:10px;border-width:4mm;background-color:rgb(56, 22, 204)"> -->
+
+{% endblock %}
